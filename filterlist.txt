@@ -1,5 +1,5 @@
-! Title: hey2022's filter lists
-! Description: hey2022's filter lists
+! Title: hey2022's filter list
+! Description: hey2022's filter list
 ! Version: 0.1.2
 ! Homepage: https://github.com/hey2022/filterlist
 
