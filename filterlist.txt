@@ -15,6 +15,8 @@ youtube.com##[is-shorts]
 www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
 ! YT Search - Hide Shorts
 www.youtube.com##ytd-search ytd-video-renderer:has([overlay-style="SHORTS"])
+www.youtube.com###contents > grid-shelf-view-model:has(.shortsLockupViewModelHost)
+www.youtube.com###contents > ytd-video-renderer:has( ytd-thumbnail > a[href^="/shorts/"] )
 ! YT Search, Channels, Subscriptions (List View) and Sidebar/Below Player Recommendations - Hide the Shorts sections
 www.youtube.com##ytd-reel-shelf-renderer
 ! YT Channels - Hide the Shorts tab
