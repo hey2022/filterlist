@@ -41,5 +41,5 @@ m.youtube.com##ytm-search ytm-video-with-context-renderer:has([data-style="SHORT
 m.youtube.com##[tab-title="Shorts"]
 
 ! YT Channel Videos
-www.youtube.com##ytd-two-column-browse-results-renderer.style-scope
-www.youtube.com###tabsContainer
+# www.youtube.com##ytd-two-column-browse-results-renderer.style-scope
+# www.youtube.com###tabsContainer
