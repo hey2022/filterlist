@@ -43,8 +43,3 @@ m.youtube.com##[tab-title="Shorts"]
 ! YT Channel Videos
 # www.youtube.com##ytd-two-column-browse-results-renderer.style-scope
 # www.youtube.com###tabsContainer
-
-! Reddit frontpage
-||reddit.com^|$document
-||reddit.com/?feed=home^|$document
-||reddit.com/r/popular^|$document
