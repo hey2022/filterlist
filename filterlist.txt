@@ -1,6 +1,6 @@
 ! Title: hey2022's filter list
 ! Description: hey2022's filter list
-! Version: 0.1.3
+! Version: 0.1.4
 ! Homepage: https://github.com/hey2022/filterlist
 
 ! YT - Homepage and Subscriptions (Grid View) - Hide the Shorts section
@@ -27,10 +27,9 @@ www.youtube.com##ytd-item-section-renderer[page-subtype]:has(>#contents>[is-hist
 ! YT Mobile - Hide the Shorts Menu button
 m.youtube.com##ytm-pivot-bar-item-renderer:has(>.pivot-shorts)
 ! YT Mobile - Hide the Shorts sections
-m.youtube.com##ytm-reel-shelf-renderer
-m.youtube.com##ytm-rich-section-renderer:has([d^="M17.77,10.32l-1.2"])
+m.youtube.com##:is(ytm-rich-section-renderer,grid-shelf-view-model):has([href^="/shorts/"])
 ! YT Mobile - Search - Hide Shorts
-m.youtube.com##ytm-search ytm-video-with-context-renderer:has([data-style="SHORTS"])
+m.youtube.com##ytm-search ytm-video-with-context-renderer:has([href^="/shorts/"])
 ! YT Mobile - Channels - Hide the Shorts button
 m.youtube.com##[tab-title="Shorts"]
 ! YT Mobile - History - Hide Shorts
