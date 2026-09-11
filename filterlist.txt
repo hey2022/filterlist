@@ -1,6 +1,6 @@
 ! Title: hey2022's filter list
 ! Description: hey2022's filter list
-! Version: 0.1.5
+! Version: 0.1.6
 ! Homepage: https://github.com/hey2022/filterlist
 
 ! YT - Homepage and Subscriptions (Grid View) - Hide the Shorts section
@@ -37,8 +37,10 @@ m.youtube.com##[tab-identifier="FEhistory"] ytm-compact-video-renderer:has(>div>
 
 ! YT Home - No Videos
 www.youtube.com##ytd-browse[page-subtype="home"]
+m.youtube.com##ytm-rich-grid-renderer
 ! YT Videos - No Sidebar
 www.youtube.com##ytd-watch-flexy #secondary
+m.youtube.com##.related-items-container
 
 ! YT Homepage - Hide the Posts Section
 www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-section-renderer:has(ytd-rich-item-renderer[is-post])
