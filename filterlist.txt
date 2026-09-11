@@ -1,6 +1,6 @@
 ! Title: hey2022's filter list
 ! Description: hey2022's filter list
-! Version: 0.1.4
+! Version: 0.1.5
 ! Homepage: https://github.com/hey2022/filterlist
 
 ! YT - Homepage and Subscriptions (Grid View) - Hide the Shorts section
@@ -69,4 +69,5 @@ youtube.com##ytd-popup-container > tp-yt-paper-dialog > ytd-mealbar-promo-render
 ||reddit.com/?feed=home^|$document
 ||reddit.com/r/popular^|$document
 ||reddit.com/r/all^|$document
-reddit.com###flex-left-nav-container
+reddit.com##:matches-path(/^\/(\?.*)?$/) .main-container
+reddit.com###left-sidebar-container > faceplate-tracker
